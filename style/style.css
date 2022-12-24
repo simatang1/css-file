@@ -65,7 +65,13 @@ nav li{
     background-image: url(/images/pexels-jess-bailey-designs-934011.jpg);
 
 }
-
+button{
+    background-color: dodgerblue;
+   background-repeat: no-repeat;
+   border: none;
+   padding: 10px 5px;
+   border-radius: 7px;
+}
 .sec img{
     display: flex;
     width: 100px;
@@ -84,8 +90,16 @@ nav li{
    padding: 20px;
   padding-left: 90px;
 }
-div img{
-    width: 200px;
+
+.imgsec{
+    display: flex;
+    width: 80px;
+    padding-top: 100px;
+}
+.imgdiv{
+    flex-basis: 30px;
+    margin-bottom: 5%;
+    text-align: left;
 }
 .width{
     width: 90px;
@@ -95,7 +109,25 @@ div img{
 }
 .flex{
     display: flex;
+   padding: -1px;
+   align-items: center;
     
+}
+.text-align{
+    text-decoration: none;
+}
+.peading{
+    padding: 10px;
+}
+.sec-2{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    
+} .sec-2 img{
+    width: 55px;
+    padding: 0;
+    align-items: center;
 }
 div{
     padding: 70px;
@@ -129,5 +161,5 @@ footer{
     text-align: center;
     background-color: rgb(53, 100, 228);
     color: aliceblue;
-    padding: 10px 10px;
+    padding: 10px;
 }
